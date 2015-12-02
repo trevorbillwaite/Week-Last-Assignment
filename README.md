@@ -1,3 +1,11 @@
+<head>
+...
+    <script type="text/javascript"
+            src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+...
+</head>
+
 # Week-Last-Assignment
 ##The Last Lab!
 
@@ -33,6 +41,8 @@ Alice & Charlie
 Bob & Charlie  
 
 So with 2 out of 3, we can get 3 choices. Simple enough, but think if I want to pick 5 out of 20?  (n = 20, k = 5) Is there a formula for this?  Yes, 
+\\( 1/x^{2} \\), and here is a block rendering: 
+\\[ \frac{1}{n^{2}} \\]
 
 
 <math xmlns="http://www.w3.org/1998/Math/MathML"><msubsup><mi>C</mi><mi>k</mi><mi>n</mi></msubsup><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>n</mi><mo>!</mo></mrow><mrow><mi>k</mi><mo>!</mo><mo>(</mo><mi>n</mi><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><mi>k</mi><mo>)</mo><mo>!</mo></mrow></mfrac></math>
